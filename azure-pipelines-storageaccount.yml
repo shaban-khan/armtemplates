@@ -19,6 +19,6 @@ steps:
     resourceGroupName: 'skhan-learn-arm-RG'
     location: 'East US 2'
     templateLocation: 'Linked artifact'
-    csmFile: '''$(System.DefaultWorkingDirectory)/storageaccount/storage-template.json'''
-    csmParametersFile: '''$(System.DefaultWorkingDirectory)/storageaccount/storage-parameters.json'''
+    csmFile: '$(System.DefaultWorkingDirectory)/storageaccount/storage-template.json'
+    csmParametersFile: '$(System.DefaultWorkingDirectory)/storageaccount/storage-parameters.json'
     deploymentMode: 'Incremental'
